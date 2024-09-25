@@ -40,7 +40,7 @@ h1{
     align-items: center;
     text-align: center;
 }
-div .container{
+.container {
     display: inline;
     text-align: center;
     align-items: center;
@@ -81,7 +81,7 @@ div span{
     width: 50px;
     font-size: 12px;
 }
-.members{
+.members {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -103,10 +103,10 @@ h2{font-size: 20px;
 .lawrence img{
     border-radius: 50%;
 }
+
 .Bitmap_Section{
     background-color: #c271ff;
-    height: 300px;
-    display: block;
+    height: 350px;
 }
 .Bitmap{
     display: inline-block;
@@ -115,11 +115,79 @@ h2{font-size: 20px;
 .Bitmap_text{
     text-decoration: none;
     display: inline-block;
-    width: 420px;
+    width: 450px;
+    margin-left: 20px;
     
 }
 .Bitmap img{
-    padding-left: 200px;
+    margin-left: 300px;
     margin-top: 65px;
 
+}
+.tutorials{
+    background-color: white;
+    color: black;
+}
+.subtutor{
+    display: flex;
+    width: 100px;
+    margin-left: 150px;
+}
+.smali {
+    display: flex;
+
+}
+.smali img{
+    width: 17px;
+    padding: 20px;
+  
+}
+.tutorials h2{
+font-size: 30px;
+align-items: center;
+text-align: center;
+margin-bottom: 50px;
+}
+.rating {
+    position: sticky;
+    height: 7px;
+    background-image: url('rating.png');
+    background-size: cover; 
+    background-position: center;
+}
+.para_div{
+    margin-left: 30px;
+}
+.Free_membership div{
+   background-color: rgb(5, 5, 71);
+   height: auto;
+
+  
+
+}
+#membey{
+width: 200px;
+justify-content: center;
+display: contents;
+display: inline-block;
+text-align: center;
+margin-left: 100px;
+margin-bottom: 50px;
+}
+.Free_membership div img{
+    width: 30px;
+    padding: 50px;
+}
+.faq{
+    background-color: white;
+    color: black;
+}
+#faq_cont{
+    justify-content: center;
+    display: inline-block;
+ 
+}
+footer{
+    background-color: rgb(5, 5, 71);
+    height: 250px;
 }
