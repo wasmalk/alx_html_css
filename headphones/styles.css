@@ -1,0 +1,331 @@
+
+@media only screen and (max-width: 1000px) and  (min-width: 480px){
+    body {
+        background-image: url("../images/headphones_hero_1.jpg");
+        background-repeat: no-repeat;
+        background-position: top center;
+        min-width: 480px;
+        width: 100%;
+        overflow-x: hidden;
+        color: white;
+        font-family: "Source Sans Pro", sans-serif;
+        left: 20px;
+    }
+    #what_we_do{
+        color: black;
+        padding: 50px 0;
+        text-align: center;
+        min-width: 480px;
+        margin: 0 auto;
+    }
+    .what_we_do{
+        background-color: white;
+        padding: 50px 0;
+        text-align: center;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+      .logo_foot{
+        min-width: 480px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+      }
+      .footer_logo {
+        min-width: 480px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-bottom: 20px;
+        }
+}
+
+
+
+
+body {
+    background-image: url("../images/headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    max-width: 1400px;
+    width: 100%;
+    overflow-x: hidden;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+
+    
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+.logo img{
+    width: 200px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    font-size: 10px;
+    margin-right: 25px;
+  
+}
+nav ul li a{
+    color: white;
+}
+.no-underline{
+    text-decoration: none;
+    color: white;
+}
+main div{
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #FF6565;
+    opacity: 0.9px;
+    color: white;
+    width: fit-content;
+    border-radius: 50PX;
+    padding: 10px 30px;
+    box-shadow: 0px 2px 20px 0px #00000080;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.6px;
+}
+p{
+    width: 670px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 85px;
+    margin-top: 16rem;
+}
+
+#what_we_do{
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.what_we_do{
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .what_we_do_cont{
+    justify-content: center;
+    align-items: center;
+     gap: 50px;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+  
+.what_we_do h2 {
+    color: black;
+    font-size: 32px;
+    line-height: 37.5px;
+    padding-bottom: 40px;
+  }
+  
+.what_we_do p {
+    color: black;
+    width: 637px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 60px;
+  }
+  
+
+  
+  .what_we_do_img h3 {
+    color: black;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  
+  .what_we_do_img p {
+    color: black;
+    width: 207px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+#result_sec{
+    background-image: url(../images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    width: 100%;
+    overflow-x: hidden;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.results_content{
+
+    margin: 0 auto;
+    padding: 170px 0;
+    text-align: center;
+}
+.results_content h2 {
+    font-size: 32px;
+    line-height: 37.5px;
+    padding-bottom: 40px;
+  }
+  
+  .results_content p {
+    width: 637px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
+  .count{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+  .count_fig{
+    width: 200px;
+    height: 190px;
+    background-image: url("../images/pentagone.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+.fig {
+    position: absolute;
+   
+}
+  
+.fig h3 {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+.fig p {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 18px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 4rem;
+}
+.Form_sec{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 70px 0;
+    text-align: center;
+}
+.Form_sec h1{
+    font-size: 35px;
+    line-height: 35px;
+    padding-bottom: 50px;
+    color: black;
+}
+.input{
+    display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 335px;
+  margin: auto;
+}
+.input label {
+    font-size: 14px;
+    line-height: 16.41px;
+    padding-bottom: 5px;
+}
+.input input,
+.input textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: color(black) 1px solid;
+  outline: none;
+  margin-bottom: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.input input, .input textarea {
+ border-color: black 0, 0, 0;
+ 
+}
+
+.input textarea {
+  height: 90px;
+  margin-bottom: 30px;
+}
+footer{
+   text-align: center;
+   background-color: rgb(9, 9, 49);
+   padding: 30px 0 0;
+}
+
+.logo_foot{
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.footer_logo {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .footer_logo img {
+    width: 200px;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    text-align: left;
+  }
+  
+  footer h3 {
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+  }
+  
+  .footer_link {
+    display: flex;
+    gap: 15px;
+    color: white;
+  }
+ 
