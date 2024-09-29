@@ -1,8 +1,11 @@
 body{
     background-image: url("Object.png");
-    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    overflow-x: hidden;
     color: white;
-    
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 header{
@@ -51,12 +54,12 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 200px;
   flex-direction: column;
 
 }
 .second_nav{
-    height: 370px;
+    height: 300px;
     width: 335;
     margin: 50px;
     text-align: center;
@@ -88,11 +91,11 @@ div span{
    margin: 60px;
 }
 .members div{
-    height: 180px;
+    height: 200px;
     width: 30;
     margin: 60px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 h2{font-size: 20px;
@@ -107,10 +110,12 @@ h2{font-size: 20px;
 .Bitmap_Section{
     background-color: #c271ff;
     height: 350px;
+   
 }
 .Bitmap{
     display: inline-block;
     align-items: center;
+    max-width: 1000px;
 }
 .Bitmap_text{
     text-decoration: none;
@@ -161,10 +166,16 @@ margin-bottom: 50px;
 .Free_membership div{
    background-color: rgb(5, 5, 71);
    height: auto;
+   color: white;
+    padding: 50px 0;
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
   
 
-}
+
 #membey{
 width: 200px;
 justify-content: center;
